@@ -9,7 +9,7 @@ export default async function handler(req, res) {
     const { message } = req.body;
 
     const response = await axios.post(
-      "https://ai-chatbot-jv9u.onrender.com/chat",
+      "https://ai-chatbot-1pc7.onrender.com/chat",
       { message }
     );
 
